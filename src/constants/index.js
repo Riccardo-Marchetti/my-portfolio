@@ -4,40 +4,39 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  bootstrap,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  spring,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  cinema,
+  linkedin,
+  intesa,
+  postgreSQL,
+  java,
+  sass,
+  typescript,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "competenze",
+    title: "Competenze",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "progetti",
+    title: "Progetti",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const services = [
@@ -46,16 +45,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front-end Developer",
+    icon: creator,
+  },
+  {
+    title: "Back-end Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Responsive Design",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -69,11 +68,19 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Typescript",
     icon: typescript,
   },
   {
@@ -85,32 +92,20 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Spring",
+    icon: spring,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PostgreSQL",
+    icon: postgreSQL,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,67 +193,72 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dream Cinema",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Questa app, sviluppata per il mio progetto Capstone di Epicode, gestisce una catena di cinema. Permette agli utenti di esplorare film, aggiungere recensioni, prenotare biglietti e visualizzare le loro prenotazioni nel profilo.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Java",
+        color: "orange-text-gradient",
+      },
+
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cinema,
+    source_code_Link: "https://github.com/Riccardo-Marchetti/Capstone_project",
   },
   {
-    name: "Job IT",
+    name: "Linkedin Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Questo è il progetto finale della parte front-end del corso. Insieme al mio team, abbiamo creato un clone di Linkedin, implementando molte delle funzionalità CRUD utilizzando le API fornite dal corso. ",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Redux",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: linkedin,
+    source_code_Link: "https://github.com/kaem0n/epicode-BW3-Team6",
   },
   {
-    name: "Trip Guide",
+    name: "Intesa Vincente",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cerchi un modo divertente per passare il tempo con gli amici? Ho la soluzione: In questo progetto, ho ricreato il famoso gioco televisivo. Il gioco è funzionante, ma sto aggiungendo nuove funzionalità.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: intesa,
+    source_code_Link: "https://github.com/",
   },
 ];
 

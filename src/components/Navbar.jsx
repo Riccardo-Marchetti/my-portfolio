@@ -22,9 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-50 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer">
-            Riccardo Marchetti
+            {/* Riccardo Marchetti */}
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

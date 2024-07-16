@@ -18,6 +18,11 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import bootstrap from "./tech/bootstrap.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import postgreSQL from "./tech/postgreSQL.png";
+import sass from "./tech/sass.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -26,9 +31,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import cinema from "./cinema.png";
+import linkedin from "./linkedin.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import intesa from "./IntesaVincente.png";
 
 export {
   logo,
@@ -50,13 +56,19 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  bootstrap,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
+  cinema,
   jobit,
-  tripguide,
+  intesa,
+  typescript,
+  java,
+  spring,
+  postgreSQL,
+  sass,
+  linkedin,
 };
